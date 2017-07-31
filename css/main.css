@@ -1,0 +1,40 @@
+body,h1,h2,h3,h4,h5,h6,div,header,nav,section,footer,ul,li,ol,dl,dt,dd,form,table,tr,td,img,a,span,a,em,i,strong,b,label,input,select,option,textarea,p{margin: 0;padding: 0;}
+body{ min-width: 320px; max-width: 750px; font-size:0.3rem;/*初始的字体大小*/ margin:0 auto; font-family: "方正兰亭","微软雅黑";
+ background: #f6f8f7;}
+ 
+header{background:#0cb1f0 url(../images/header-bg.jpg)no-repeat  top center / 100% auto; height:3.7rem; }
+.head h1{line-height: 0.9rem;font-size: 0.66rem;color: white;margin: 1.29rem 0 0 2.38rem;}
+.head p{font-size: 0.39rem;font-weight: 600;color: white;margin:  0.1rem 0 0 2.38rem;}
+.section-1{}
+.section-1-content ul{margin: 0.28rem 0 0 0.28rem;}
+.section-1-content li{margin: 0 0 0.35rem 0;}
+
+.section-1-tit{background: url(../images/section1-bg.jpg) no-repeat top center / 100% auto; height: 1.16rem;width: 5.8rem;margin-left: 0.6rem;padding: 0 0.15rem 0 0.34rem;
+margin-top: 0.83rem;}
+
+.section-1-tit p{font-size: 0.28rem;}
+
+.section-1-content .icon{float:left;width: 1.48rem; height: 1.21rem;border: 0.02rem solid #3d3f4e;border-radius: 0.74rem 0  0 0.74rem;border-right: 0;
+}
+.p1{background: url(../images/section1-icon1.jpg) no-repeat  0.4rem 0.12rem/ 0.85rem 0.85rem;}
+.p2{background: url(../images/section1-icon2.jpg) no-repeat  0.42rem 0.38rem/ 0.85rem 0.85rem;}
+.p3{background: url(../images/section1-icon3.jpg) no-repeat  0.44rem 0.3rem/ 0.85rem 0.85rem;}
+
+.section-1-content .content{float:left; height: 0.97rem;width:5.19rem;border: 0.02rem solid #3d3f4e;border-radius:  0 0.74rem   0.74rem 0;
+padding:0.24rem 0 0 0.21rem;}
+.section-1-content .height142{height: 1.42rem;}
+.section-1-content .height118{height: 1.18rem;}
+.content h3{font-size: 0.28rem; line-height: 0.28rem;}
+.content span{font-size: 0.24rem; color: #666666;line-height: 0.28rem;display: block;margin-top: 0.14rem;}
+
+
+.section-2-tit p{background: url(../images/section2-bg.jpg) no-repeat 1.74rem 0 /4.31rem 0.26rem; text-align: center;line-height: 0.26rem; font-size: 0.26rem;
+margin-top: 0.45rem;margin-bottom: 0.19rem;}
+.section-2-content{background: url(../images/section2-content-bg.jpg) no-repeat top center /7.5rem 6.48rem;}
+.section-2-content p{font-size: 0.24rem;margin: 0.12em 0 0 0.98rem;}
+.section-2-content .MT540{margin-top: 5.42rem;}
+.section-2-button{margin-top: 0.87rem;margin-left: 0.5rem;}
+.section-2-button a{display: block;background: url(../images/section-2button.jpg) no-repeat top center / 100% auto;height: 0.86rem;width: 6.19rem;
+padding-top: 0.3rem;padding-left: 0.2rem;font-size: 0.32rem;}
+
+footer{background: url(../images/footer-bg.jpg) no-repeat top center /100% auto; height: 1.42rem; width:7.5rem;margin-top: 0.65rem;}

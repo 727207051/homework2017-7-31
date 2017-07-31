@@ -1,0 +1,34 @@
+﻿/*重置，初始化客户端* /
+body,div,ul,li,ol,h1,h2,h3,h4,h5,h6,p,table,tr,td,form,dl,dt,dd,a,img,span,strong,em,b,i,label,input,select,option,textarea{margin: 0;padding: 0;}
+li{list-style: none;}
+a{color: #000; text-decoration: none;}
+a:hover{color:#e93030;}
+img{border: 0; vertical-align: top;}
+em,i{font-style: normal;}
+h1,h2,h3,h4,h5,h6,strong,b{font-weight: normal;}
+input,textarea,select,area{outline: none;/*高亮*/}
+
+
+
+/*初始化手机端*/
+body,h1,h2,h3,h4,h5,h6,div,header,nav,section,footer,ul,li,ol,dl,dt,dd,form,table,tr,td,img,a,span,a,em,i,strong,b,label,input,select,option,textarea{margin: 0;padding: 0;}
+li{list-style: none;}
+a{ color:#fff; text-decoration: none;}
+a:hover{color:#fff;}
+html{ font-size: 625%;/*6.25*16=相当于100px;rem的换算参考大小（rem单位以html为参考）*/}
+.clearfix:before,.clearfix:after{content:" "; display: table;}
+.clearfix:after{clear:both;}
+
+
+/*功能*/
+.clearfix:before,.clearfix:after{content: " "; display: table;}
+.clearfix:after{clear:both;}
+.FL{float:left;}
+.FR{float:right;}
+
+.ellipsis{ white-space: nowrap; overflow:hidden; text-overflow:ellipsis;}
+
+.overflow{overflow:hidden;}
+.overflowText{overflow: hidden; text-indent:-99em; }
+
+body{ font-family: "微软雅黑"; font-size: 14px; }
